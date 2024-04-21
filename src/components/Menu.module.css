@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    justify-content: right;
+
+    padding: 15px;
+
+    font-size: 14px;
+}
+
+.menu a{
+    display: flex;
+    align-items: center;
+
+    padding: 7px;
+}
+
+.resize{
+    width: 43px;
+}

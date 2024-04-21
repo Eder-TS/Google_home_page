@@ -1,6 +1,8 @@
+import styles from './SingleButton.module.css'
+
 function ButtonSearch(){
     return(
-        <button>Pesquisa Google</button>
+        <button className={styles.singlebutton}>Pesquisa Google</button>
     )
 }
 

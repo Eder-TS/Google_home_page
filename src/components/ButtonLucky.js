@@ -1,6 +1,8 @@
+import styles from './SingleButton.module.css'
+
 function ButtonLucky(){
     return(
-        <button>Estou com sorte</button>
+        <button className={styles.singlebutton}>Estou com sorte</button>
     )
 }
 

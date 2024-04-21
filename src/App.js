@@ -1,42 +1,25 @@
 import Menu from './components/Menu';
 import Logo from './components/Logo';
-import Search from './components/Search';
-import ButtonSearch from './components/ButtonSearch';
-import ButtonLucky from './components/ButtonLucky';
+import Form from './components/Form';
 import Privacity from './components/Privacity';
+import Country from './components/Country';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <div>
-        <Menu/>
-      </div>
+      <Menu/>
       
-      <div>
-        <Logo/>
-      </div>
+      <Logo/>
 
-      <div>
-        <Search/>
-      </div>
+      <Form/>
 
-      <div>
-        <ButtonSearch/>
-        <ButtonLucky/>
-      </div>
+      <Privacity/>
 
-      <div>
-        <Privacity/>
-      </div>
+      <Country/>
 
-      <div>
-        <Country/>
-      </div>
-
-      <div>
-        <Footer/>
-      </div>
+      <Footer/>
     </div>
     
   );

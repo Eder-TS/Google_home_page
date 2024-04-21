@@ -1,0 +1,10 @@
+.logo{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 5%;
+}
+
+.resize{
+    width: 18%;
+}
