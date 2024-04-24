@@ -2,26 +2,24 @@ import Menu from './components/Menu';
 import Logo from './components/Logo';
 import Form from './components/Form';
 import Privacity from './components/Privacity';
-import Country from './components/Country';
 import Footer from './components/Footer';
-import './App.css';
+import styles from './components/App.module.css'
 
 function App() {
   return (
-    <div>
+    <div className={styles.app}>
       <Menu/>
       
-      <Logo/>
+      <section>
+        <Logo/>
 
-      <Form/>
+        <Form/>
 
-      <Privacity/>
-
-      <Country/>
+        <Privacity/>
+      </section>
 
       <Footer/>
     </div>
-    
   );
 }
 

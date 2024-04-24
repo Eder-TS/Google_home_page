@@ -6,6 +6,7 @@ function Buttons(){
     return(
         <div className={styles.buttons}>
           <ButtonSearch/>
+          
           <ButtonLucky/>
         </div>
     )

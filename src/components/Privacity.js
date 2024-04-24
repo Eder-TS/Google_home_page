@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import schield from '../images/schield.svg'
+import styles from './Privacity.module.css'
 
 function Privacity(){
     return(
-        <div>
+        <div className={styles.privacity}>
             <img src={schield} alt='Privacidade'></img>
-            <p>Faça o Check-up de privacidade</p>
+            <a href='#'>Faça o Check-up de privacidade</a>
         </div>
         
     )

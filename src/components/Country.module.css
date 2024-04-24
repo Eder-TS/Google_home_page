@@ -1,0 +1,9 @@
+.country{
+    background-color: #F2F2F2;
+}
+.country p{
+    color: #707070;
+    
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+}

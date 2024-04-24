@@ -1,6 +1,9 @@
+import styles from './Country.module.css'
 function Country(){
     return(
-        <p>Brasil</p>
+        <div className={styles.country}>
+            <p>Brasil</p>
+        </div>
     )
 }
 

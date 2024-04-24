@@ -1,6 +1,6 @@
 .singlebutton{
     background-color: #F8F8F8;
-    
+
     font-size: 15px;
     color: #7B7B7B;
 
@@ -9,4 +9,6 @@
 
     padding: 15px;
     margin: 8px;
+
+    cursor: pointer;
 }

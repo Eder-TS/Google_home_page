@@ -1,0 +1,15 @@
+.privacity{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.privacity img{
+    padding: 5px;
+}
+
+.privacity a{
+    color: #1A0DBD;
+    padding-top: 18px;
+}
