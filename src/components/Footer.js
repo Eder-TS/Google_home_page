@@ -18,7 +18,7 @@ function Footer(){
 
                 <div className={styles.littlescreen}>
                     <div className={styles.right}>
-                    <a href='#'  className={styles.links}>Privacidade</a>
+                    <a href='#' className={styles.links}>Privacidade</a>
                     <a href='#' className={styles.links}>Termos</a>
                     <a href='#' className={styles.links}>Configurações</a>
                     </div>

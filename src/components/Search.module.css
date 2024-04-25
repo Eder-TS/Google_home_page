@@ -18,6 +18,12 @@
     width: 37%;
 }
 
+@media (max-width: 1200px) {
+    .border{
+        width: 100%;
+    }
+}
+
 .border:hover{
     box-shadow: 0px 0px 8px 2px #E3E3E3;
 }

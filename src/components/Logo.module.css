@@ -6,3 +6,9 @@
 .resize{
     width: 18%;
 }
+
+@media (max-width: 1200px) {
+    .resize{
+        width: auto;
+    }
+}

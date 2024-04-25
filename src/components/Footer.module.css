@@ -18,11 +18,19 @@
 @media (max-width:600px) {
     .lowerrow{
         flex-direction: column;
+        border-top: none;
     }
 
     .littlescreen{
         display: flex;
         flex-direction: column;
+        border-top: 1px solid #DADCE0;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
     
 }
