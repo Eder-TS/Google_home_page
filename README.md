@@ -1,6 +1,13 @@
+Hello React World!
+This is may first project using React! Basicaly I copied the frontend of Google home page.
+OK, it's very simple, but I can see the potential!
+Check it out -> https://mygooglednc.netlify.app/
+
+Bellow it's the React's original readme text.
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+create react app
 
 ## Available Scripts
 
